@@ -1,7 +1,11 @@
-NextX は[Next.js](https://nextjs.org/)のテンプレートです。  
-NextX には以下の技術が導入されています。
+# NextX
+現在未完成
 
-Frontend
+NextX は[Next.js](https://nextjs.org/)のテンプレートです。  
+
+## 導入技術
+
+### Frontend
 
 - Next.js
 - TypeScript
@@ -26,7 +30,7 @@ Git
 
 - husky
 
-Backend
+### Backend
 
 - next-connect
 
