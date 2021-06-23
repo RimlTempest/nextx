@@ -15,7 +15,7 @@ export const Button: React.FC<ButtonProps> = ({
   label,
   ...props
 }) => {
-  const baseButton = 'rounded-full font-bold';
+  const baseButton = 'rounded-full font-bold focus:outline-none';
   const sizeMode =
     size === 'small'
       ? 'py-1.5 px-4 text-xs'
@@ -28,7 +28,7 @@ export const Button: React.FC<ButtonProps> = ({
     <div>
       <button
         type="button"
-        className={`text-white bg-blue-400 ${baseButton} ${sizeMode}`}
+        className={`text-white bg-green-500 hover:bg-green-600 ${baseButton} ${sizeMode}`}
         {...props}
       >
         {label}
