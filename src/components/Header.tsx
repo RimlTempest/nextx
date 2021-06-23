@@ -1,6 +1,6 @@
 import { VFC } from 'react';
 import { Popover, Transition } from '@headlessui/react';
-import { ChartBarIcon, MenuIcon, PhoneIcon, PlayIcon, XIcon } from '@heroicons/react/outline';
+import { ChartBarIcon, MenuIcon, PlayIcon, XIcon, ChatAltIcon } from '@heroicons/react/outline';
 import { ChevronDownIcon } from '@heroicons/react/solid';
 import { Button } from '../components/Button';
 
@@ -20,7 +20,7 @@ const solutions = [
 ];
 const callsToAction = [
   { name: 'Github', href: 'https://github.com/RimlTempest', icon: PlayIcon },
-  { name: '電話する', href: '#', icon: PhoneIcon },
+  { name: 'Twitter', href: 'https://twitter.com/Fande4d', icon: ChatAltIcon },
 ];
 
 function classNames(...classes: any[]) {
