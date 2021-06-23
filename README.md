@@ -1,6 +1,4 @@
 # NextX
-現在未完成
-
 NextX は[Next.js](https://nextjs.org/)のテンプレートです。  
 
 ## 導入技術
