@@ -31,7 +31,9 @@ const Home = () => {
                 {data?.name}
               </a>
             </h1>
-            <p className="mb-8 leading-relaxed">{data?.description}</p>
+            <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl p-5 m-10">
+              <p className="leading-relaxed">{data?.description}</p>
+            </div>
             <div className="flex justify-center">
               <Button label="Next.js公式へ" size={'large'} onClick={handleToNext} />
               <span className="ml-4">
