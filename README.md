@@ -1,4 +1,7 @@
 # NextX
+
+![NextX](Doc/img/home.png "img")
+
 NextX は[Next.js](https://nextjs.org/)のテンプレートです。  
 
 ## 導入技術
