@@ -1,10 +1,10 @@
 # lint-staged
 
-Git のステージ環境にあるファイルを lint してくれるツール
+*Git* のステージ環境にあるファイルを *lint* してくれるツール
 
 ## 使い方
 
-package.json に設定する
+`package.json` に設定する
 
 ```json
 "lint-staged": {
@@ -14,7 +14,7 @@ package.json に設定する
 }
 ```
 
-このリポジトリは husky と連携して使用しているので husky 側で
+このリポジトリは `husky` と連携して使用しているので `husky` 側で
 
 ```json
 "husky": {
@@ -24,4 +24,4 @@ package.json に設定する
 },
 ```
 
-このように lint-stage を呼ぶように設定する
+このように *lint-stage* を呼ぶように設定する

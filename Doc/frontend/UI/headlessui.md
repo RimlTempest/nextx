@@ -1,8 +1,8 @@
 # headless UI
 
-Headless Component とは一般的にはスタイルを持たない Component のことを指し headlessui/react から提供されています。
-これは Tailwind Labs によって作成されているため Tailwind と高い親和性を持っています。
-TypeScript の strict モードにも対応しているため TypeScript との親和性も高いです。
+*Headless Component* とは一般的にはスタイルを持たない *Component* のことを指し `headlessui/react` から提供されています。
+これは *Tailwind Labs* によって作成されているため *Tailwind* と高い親和性を持っています。
+*TypeScript* の *strict モード*にも対応しているため *TypeScript* との親和性も高いです。
 
 ## 使い方
 

@@ -4,7 +4,7 @@
 
 ## 使い方
 
-package.json に設定する
+`package.json` に設定する
 
 ```json
 {
@@ -17,12 +17,12 @@ package.json に設定する
 }
 ```
 
-pre-commit に設定したコマンドが、git commit  
-pre-push に設定したコマンドは、git push
+`pre-commit` に設定したコマンドが、*git commit*  
+`pre-push` に設定したコマンドは、*git push*
 
 にフックされる。
 
-このリポジトリは husky と lint-staged を連携して使用している。
+このリポジトリは `husky` と `lint-staged` を連携して使用している。
 
 ```json
 "husky": {
@@ -32,4 +32,4 @@ pre-push に設定したコマンドは、git push
 },
 ```
 
-このように lint-stage を呼ぶように設定する
+このように *lint-stage* を呼ぶように設定する

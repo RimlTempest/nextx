@@ -1,7 +1,7 @@
 # next-connect
 
-Express.js の`app.use()`のような書き方で制御できるようにするライブラリ。  
-pages/api で使用する
+*Express.js* の`app.use()`のような書き方で制御できるようにするライブラリ。  
+`pages/api` で使用する
 
 ## 使い方
 
@@ -20,7 +20,7 @@ export default nextConnect<NextApiRequest,NextApiResponse>(
 );
 ```
 
-エラーハンドリングなど共通化したい処理を handler として定義する
+エラーハンドリングなど共通化したい処理を *handler* として定義する
 
 ```TypeScript
 // ./handler.ts
@@ -54,7 +54,7 @@ export default NextConnect<NextApiRequest, NextApiResponse>({
 
 ```
 
-共通化したハンドラを使用する
+共通化したハンドラーを使用する
 
 ```TypeScript
 import handler from './handler';
@@ -96,7 +96,7 @@ export default handler.get(async (req, res) => {
 
 あとは  
 `http://localhost:3000/api/get?name=Riml&description=Author!`
-に get リクエストを送ると
+に `get` リクエストを送ると
 
 ```json
 {

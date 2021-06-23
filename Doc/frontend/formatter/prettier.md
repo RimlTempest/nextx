@@ -1,7 +1,7 @@
 # Prettier
 
 コードフォーマッター。  
-ESLint では整形できないコードを整形できるなどといったメリットがある。  
+*ESLint* では整形できないコードを整形できるなどといったメリットがある。  
 以下の形式などをサポートしている。
 
 - JavaScript
@@ -25,6 +25,6 @@ ESLint では整形できないコードを整形できるなどといったメ�
 ## 使い方
 
 `.prettierrc`に検証ルールを記述する。  
-`.prettierignore`に Prettier を適用しない場所、ファイルを記載する。
+`.prettierignore`に *Prettier* を適用しない場所、ファイルを記載する。
 
 `yarn format`でルールに沿って修正される。
