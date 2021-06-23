@@ -14,26 +14,28 @@ NextX は[Next.js](https://nextjs.org/)のテンプレートです。
 
 SEO
 
-- next-seo
+- [next-seo](Doc/frontend/lib/nextSEO.md)
 
 UI
 
-- Tailwind
-- @headlessui/react
-- Storybook
+- [Tailwind](Doc/frontend/UI/tailwind.md)
+- [@headlessui/react](Doc/frontend/UI/headlessui.md)
+- [Storybook](Doc/frontend/UI/storybook.md)
+- [reactTsparticles](Doc/frontend/UI/reactTsparticles.md)
 
 フォーマッター
 
-- ESLint
-- Prettier
+- [ESLint](Doc/frontend/formatter/eslint.md)
+- [Prettier](Doc/frontend/formatter/prettier.md)
 
 Git
 
-- husky
+- [husky](Doc/frontend/git/husky.md)
+- [lint-staged](Doc/frontend/git/lintStaged.md)
 
 ### Backend
 
-- next-connect
+- [next-connect](Doc/backend/lintStaged.md)
 
 ## How to Use
 

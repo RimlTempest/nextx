@@ -1,7 +1,7 @@
 import { Popover, Transition } from '@headlessui/react';
 import { ChartBarIcon, MenuIcon, PlayIcon, XIcon, ChatAltIcon } from '@heroicons/react/outline';
 import { ChevronDownIcon } from '@heroicons/react/solid';
-import { Button } from '../components/Button';
+import Button from '../components/Button';
 
 const solutions = [
   {
