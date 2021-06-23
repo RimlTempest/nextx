@@ -7,9 +7,9 @@ const particles: RecursivePartial<IOptions> = {
             value: '#FFF0',
         },
         image: "url('http://vincentgarreau.com/particles.js/assets/img/kbLd9vb_new.gif')",
-        position: '0 15%',
+        position: '0 13%',
         repeat: 'no-repeat',
-        size: '65%',
+        size: '61%',
         opacity: 1,
     },
     backgroundMask: {
