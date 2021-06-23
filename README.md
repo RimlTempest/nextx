@@ -1,5 +1,6 @@
 # NextX
-現在未完成
+
+![NextX](Doc/img/home.png "img")
 
 NextX は[Next.js](https://nextjs.org/)のテンプレートです。  
 
