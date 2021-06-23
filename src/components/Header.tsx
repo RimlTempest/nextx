@@ -45,9 +45,11 @@ const Header: VFC<HeaderProps> = (props) => {
               <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
                 <div className="flex justify-start lg:w-0 lg:flex-1">
                   <a href="#">
-                    <span className="sr-only">Workflow</span>
-                    <div className="flex justify-center items-center">
-                      <p>NextX</p>
+                    {/* <span className="sr-only">Workflow</span> */}
+                    <div className="flex justify-center items-center text-2xl">
+                      <p>
+                        Next<span className="text-blue-500">X</span>
+                      </p>
                     </div>
                   </a>
                 </div>
@@ -169,7 +171,9 @@ const Header: VFC<HeaderProps> = (props) => {
                   <div className="pt-5 pb-6 px-5">
                     <div className="flex items-center justify-between">
                       <div>
-                        <p>NextX</p>
+                        <p>
+                          Next<span className="text-blue-500">X</span>
+                        </p>
                       </div>
                       <div className="-mr-2">
                         <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -202,19 +206,6 @@ const Header: VFC<HeaderProps> = (props) => {
                     <div className="grid grid-cols-2 gap-y-4 gap-x-8">
                       <Button label="お知らせ" />
                       <Button label="お問い合わせ" />
-                      {/* <a
-                          href="#"
-                          className="text-base font-medium text-gray-900 hover:text-gray-700"
-                        >
-                          お知らせ
-                        </a>
-
-                        <a
-                          href="#"
-                          className="text-base font-medium text-gray-900 hover:text-gray-700"
-                        >
-                          お問い合わせ
-                        </a> */}
                     </div>
                   </div>
                 </div>
