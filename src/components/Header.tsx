@@ -1,4 +1,3 @@
-import { VFC } from 'react';
 import { Popover, Transition } from '@headlessui/react';
 import { ChartBarIcon, MenuIcon, PlayIcon, XIcon, ChatAltIcon } from '@heroicons/react/outline';
 import { ChevronDownIcon } from '@heroicons/react/solid';
@@ -27,15 +26,7 @@ function classNames(...classes: any[]) {
   return classes.filter(Boolean).join(' ');
 }
 
-export interface HeaderProps {
-  user?: {};
-  onLogin: () => void;
-  onLogout: () => void;
-  onCreateAccount: () => void;
-}
-
-// VFCで定義しているが実際のところJSX.Elementで良い
-const Header: VFC<HeaderProps> = (props) => {
+const Header = () => {
   return (
     <header>
       <Popover className="relative bg-white">
