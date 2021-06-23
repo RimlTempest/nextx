@@ -1,11 +1,5 @@
 import { VFC } from 'react';
-import Image from 'next/image';
-
-export interface FooterProps {
-  appName: string;
-  name: string;
-  twitterId: string;
-}
+import { FooterProps } from '../types/props/FooterProps';
 
 // VFCで定義しているが実際のところJSX.Elementで良い
 const Footer: VFC<FooterProps> = (props) => {

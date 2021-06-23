@@ -1,14 +1,7 @@
-import React from 'react';
+import React, { VFC } from 'react';
+import { ButtonProps } from '../types/props/ButtonProps';
 
-export interface ButtonProps {
-  primary?: boolean;
-  backgroundColor?: string;
-  size?: 'small' | 'medium' | 'large';
-  label: string;
-  onClick?: () => void;
-}
-
-export const Button: React.FC<ButtonProps> = ({
+const Button: VFC<ButtonProps> = ({
   primary = false,
   size = 'medium',
   backgroundColor,
@@ -45,3 +38,5 @@ export const Button: React.FC<ButtonProps> = ({
     </button>
   );
 };
+
+export default Button;

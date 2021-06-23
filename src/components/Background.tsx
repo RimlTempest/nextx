@@ -1,9 +1,6 @@
 import { VFC } from 'react';
-import Particles, { IOptions, RecursivePartial } from 'react-tsparticles';
-
-export interface BackgroundProps {
-  options: RecursivePartial<IOptions> | undefined;
-}
+import Particles from 'react-tsparticles';
+import { BackgroundProps } from '../types/props/BackgroundProps';
 
 // VFCで定義しているが実際のところJSX.Elementで良い
 const Background: VFC<BackgroundProps> = (props) => {
