@@ -39,9 +39,9 @@ Git
 
 ## How to Use
 
+このテンプレートをもとに環境構築
+
 ```bash
-npx create-next-app --example https://github.com/RimlTempest/nextx
-# or
 yarn create next-app --example https://github.com/RimlTempest/nextx
 ```
 
