@@ -1,5 +1,5 @@
 import { useHello } from '../hooks/useHello';
-import { Button } from '../components/Button';
+import Button from '../components/Button';
 
 const Home = () => {
   const { data } = useHello(
