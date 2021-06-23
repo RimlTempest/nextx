@@ -1,6 +1,6 @@
 # tailwind
 
-Tailwind CSS は高度にカスタマイズ可能な低レベルの CSS フレームワーク
+*Tailwind CSS* は高度にカスタマイズ可能な低レベルの *CSS フレームワーク*
 
 ## 使い方
 
@@ -26,4 +26,4 @@ Tailwind CSS は高度にカスタマイズ可能な低レベルの CSS フレ�
 </div>
 ```
 
-このように class に簡易的に記述できます。
+このように *class / className* に簡易的に記述できます。

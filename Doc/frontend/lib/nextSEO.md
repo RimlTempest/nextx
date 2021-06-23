@@ -1,6 +1,6 @@
 # next-seo
 
-Next.js プロジェクトでの SEO の管理を容易にするプラグイン
+*Next.js* プロジェクトでの *SEO* の管理を容易にするプラグイン
 
 ## 使い方
 
@@ -23,7 +23,7 @@ export default {
 };
 ```
 
-設定ファイルを共通で呼ばれる `_app.tsx` で呼び出し DefaultSeo で展開する。
+設定ファイルを共通で呼ばれる `_app.tsx` で呼び出し `DefaultSeo` で展開する。
 
 ```TypeScript
 // _app.tsx
