@@ -22,7 +22,7 @@ const Layout: VFC<Props> = (props) => {
 
   return (
     <body className="flex flex-col min-h-screen">
-      <Header onCreateAccount={onCreateAccount} onLogin={onCreateLogin} onLogout={onCreateLogout} />
+      <Header />
       <main className="flex-grow flex items-center">{props.children}</main>
       <Footer appName="NextX" name="Riml" twitterId="Fande4d" />
       <Backgrtound options={{ ...particles }} />
