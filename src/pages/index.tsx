@@ -1,7 +1,4 @@
-import Image from 'next/image';
-import { useRouter } from 'next/router';
 import { useHello } from '../hooks/useHello';
-import styles from '../styles/Home.module.css';
 import { Button } from '../components/Button';
 
 const Home = () => {
@@ -16,8 +13,6 @@ const Home = () => {
     Sans Fallback Comments and documentation are provided to help you get started and learn React.'
   );
 
-  const router = useRouter();
-
   const handleToNext = () => {
     window.location.href = 'https://Nextjs.org';
   };
@@ -26,7 +21,7 @@ const Home = () => {
   };
 
   return (
-    <div className={styles.container}>
+    <div className="container mx-auto px-4">
       <section className="text-gray-600 body-font">
         <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
           <div className="text-center lg:w-2/3 w-full">
@@ -46,19 +41,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
     </div>
   );
 };

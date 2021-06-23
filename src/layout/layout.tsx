@@ -1,5 +1,6 @@
 import { VFC } from 'react';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 type Props = {
   children: React.ReactNode;
@@ -17,10 +18,11 @@ const Layout: VFC<Props> = (props) => {
     console.log('onLogout');
   };
   return (
-    <>
+    <body className="flex flex-col min-h-screen">
       <Header onCreateAccount={onCreateAccount} onLogin={onCreateLogin} onLogout={onCreateLogout} />
-      <main>{props.children}</main>
-    </>
+      <main className="flex-grow flex items-center">{props.children}</main>
+      <Footer appName="NextX" name="Riml" twitterId="Fande4d" />
+    </body>
   );
 };
 
